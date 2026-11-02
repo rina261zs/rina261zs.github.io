@@ -76,3 +76,17 @@ th, td {
   border: solid 1px #f0f0f0;
   padding: 0.5rem;
 }
+
+/* お菓子の写真 */
+
+.sweets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.sweets img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
