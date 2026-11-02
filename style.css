@@ -4,7 +4,7 @@
 -------------------- */
 
 :root {
-  --theme-color: #00a0a0;
+  --theme-color: #e8d45a;
 }
 
 * {
@@ -19,7 +19,8 @@ html, body {
 body {
   margin: 0;
   padding: 30px;
-  color: #333;
+        background-color: #05070d;
+  color: #e8d45a;
 }
 
 /* --------------------
@@ -63,17 +64,17 @@ table {
   min-width: 70%;
 }
 tr {
-  background-color: #fff;
+  background-color: #101827;
 }
 tr:nth-child(2n) {
-  background-color: #f9f9f9;
+  background-color: #172238;
 }
 th {
   background: var(--theme-color);
-  color: #fff;
+  color: #05070d;
 }
 th, td {
-  border: solid 1px #f0f0f0;
+  border: solid 1px #05070d;
   padding: 0.5rem;
 }
 
